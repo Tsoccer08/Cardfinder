@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!savedCards.length) {
       savedCardsSection.innerHTML = `
         <div class="empty-library">
-          <img src="../images/back_of_card.webp" alt="Empty Library" loading="lazy">
+          <img src="images/back_of_card.webp" alt="Empty Library" loading="lazy">
           <p>Your library is currently empty.</p>
         </div>`;
       return;
