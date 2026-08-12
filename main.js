@@ -7,7 +7,7 @@ const carouselImages = [
   { src: "../images/mirror_force.webp", alt: "Mirror Force" },
   { src: "../images/obelisk_the_tormentor.webp", alt: "Obelisk the Tormentor" },
   { src: "../images/odd-eyes_pendulum_dragon.webp", alt: "Odd-Eyes Pendulum Dragon" },
-  { src: "../images/red-eyes_b.dragon.webp", alt: "Red-Eyes Black Dragon" },
+  { src: "images/red-eyes_b.dragon.webp", alt: "Red-Eyes Black Dragon" },
   { src: "../images/slifer_the_sky_dragon.webp", alt: "Slifer the Sky Dragon" }
 ];
 
