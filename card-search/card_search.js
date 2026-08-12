@@ -2,7 +2,7 @@ const cards = [
   {
     id: 1,
     name: "Cyber Dragon",
-    image: "../images/cyber_dragon.webp",
+    image: "images/cyber_dragon.webp",
     type: "MONSTER",
     subtype: ["EFFECT"],
     monsterType: "MACHINE",
@@ -15,7 +15,7 @@ const cards = [
   {
     id: 2,
     name: "Blue-Eyes White Dragon",
-    image: "../images/blue-eyes_white_dragon.webp",
+    image: "images/blue-eyes_white_dragon.webp",
     type: "MONSTER",
     subtype: ["NORMAL"],
     monsterType: "DRAGON",
@@ -28,7 +28,7 @@ const cards = [
   {
     id: 3,
     name: "Mirror Force",
-    image: "../images/mirror_force.webp",
+    image: "images/mirror_force.webp",
     type: "TRAP",
     trapType: "NORMAL",
     description: "When an opponent's monster declares an attack: Destroy all your opponent's Attack Position monsters."
@@ -36,7 +36,7 @@ const cards = [
   {
   id: 4,
   name: "Dark Magician",
-  image: "../images/dark_magician.webp",
+  image: "images/dark_magician.webp",
   type: "MONSTER",
   subtype: ["NORMAL"],
   monsterType: "SPELLCASTER",
@@ -49,7 +49,7 @@ const cards = [
   {
     id: 5,
     name: "Decode Talker",
-    image: "../images/decode_talker.webp",
+    image: "images/decode_talker.webp",
     type: "MONSTER",
     subtype: ["LINK"],
     monsterType: "CYBERSE",
@@ -61,7 +61,7 @@ const cards = [
   {
   id: 6,
   name: "Cycroid",
-  image: "../images/cycroid.webp",
+  image: "images/cycroid.webp",
   type: "MONSTER",
   subtype: ["NORMAL"],
   monsterType: "MACHINE",
@@ -74,7 +74,7 @@ const cards = [
   {
   id: 7,
   name: "Aeropixthree",
-  image: "../images/aeropixthree.webp",
+  image: "images/aeropixthree.webp",
   type: "MONSTER",
   subtype: ["EFFECT", "TUNER"],
   monsterType: "FAIRY",
@@ -87,7 +87,7 @@ const cards = [
   {
   id: 8,
   name: "Ambulance Rescueroid",
-  image: "../images/ambulance_rescueroid.webp",
+  image: "images/ambulance_rescueroid.webp",
   type: "MONSTER",
   subtype: ["FUSION"],
   monsterType: "MACHINE",
@@ -100,7 +100,7 @@ const cards = [
   {
   id: 9,
   name: "Ambulanceroid",
-  image: "../images/ambulanceroid.webp",
+  image: "images/ambulanceroid.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "MACHINE",
@@ -113,7 +113,7 @@ const cards = [
   {
   id: 10,
   name: "Banisher of the Radiance",
-  image: "../images/banisher_of_the_radiance.webp",
+  image: "images/banisher_of_the_radiance.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "FAIRY",
@@ -126,7 +126,7 @@ const cards = [
   {
   id: 11,
   name: "Weapon Change",
-  image: "../images/weapon_change.webp",
+  image: "images/weapon_change.webp",
   type: "SPELL",
   spellType: "CONTINUOUS",
   description: "Once during each of your Standby Phases: You can pay 700 LP, then target 1 Warrior or Machine monster you control; switch the current ATK and DEF of that target until the end of your opponent's next turn."
@@ -134,7 +134,7 @@ const cards = [
   {
   id: 12,
   name: "Vennu, Bright Bird of Divinity",
-  image: "../images/vennu,bright_bird_of_divinity.webp",
+  image: "images/vennu,bright_bird_of_divinity.webp",
   type: "MONSTER",
   subtype: ["RITUAL", "EFFECT"],
   monsterType: "FAIRY",
@@ -147,7 +147,7 @@ const cards = [
   {
   id: 13,
   name: "Vehicroid Connection Zone",
-  image: "../images/vehicroid_connection_zone.webp",
+  image: "images/vehicroid_connection_zone.webp",
   type: "SPELL",
   spellType: "NORMAL",
   description: "Fusion Summon 1 \"Vehicroid\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material, and if you do, it cannot be destroyed by card effects, and its effects cannot be negated."
@@ -155,7 +155,7 @@ const cards = [
   {
   id: 14,
   name: "The Earth – Hex‑Sealed Fusion",
-  image: "../images/the_earth-hex-sealed_fusion.webp",
+  image: "images/the_earth-hex-sealed_fusion.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "ROCK",
@@ -168,7 +168,7 @@ const cards = [
   {
   id: 15,
   name: "The Blazing Mars",
-  image: "../images/the_blazing_mars.webp",
+  image: "images/the_blazing_mars.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "PYRO",
@@ -181,7 +181,7 @@ const cards = [
   {
   id: 16,
   name: "Supercharge",
-  image: "../images/supercharge.webp",
+  image: "images/supercharge.webp",
   type: "TRAP",
   trapType: "NORMAL",
   description: "If an opponent's monster declares an attack while all monsters you control are Machine “roid” monsters (min. 1): Draw 2 cards."
@@ -189,7 +189,7 @@ const cards = [
   {
   id: 17,
   name: "Slifer the Sky Dragon",
-  image: "../images/slifer_the_sky_dragon.webp",
+  image: "images/slifer_the_sky_dragon.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "DIVINE-BEAST",
@@ -202,7 +202,7 @@ const cards = [
   {
   id: 18,
   name: "D.D. Crow",
-  image: "../images/d.d.crow.webp",
+  image: "images/d.d.crow.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "WINGED-BEAST",
@@ -215,7 +215,7 @@ const cards = [
   {
   id: 19,
   name: "Red‑Eyes Black Dragon",
-  image: "../images/red-eyes_b.dragon.webp",
+  image: "images/red-eyes_b.dragon.webp",
   type: "MONSTER",
   subtype: ["NORMAL"],
   monsterType: "DRAGON",
@@ -228,7 +228,7 @@ const cards = [
   {
   id: 20,
   name: "Obelisk the Tormentor",
-  image: "../images/obelisk_the_tormentor.webp",
+  image: "images/obelisk_the_tormentor.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "DIVINE-BEAST",
@@ -241,7 +241,7 @@ const cards = [
   {
   id: 21,
   name: "Obsidian Dragon",
-  image: "../images/obsidian_dragon.webp",
+  image: "images/obsidian_dragon.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "ROCK",
@@ -254,7 +254,7 @@ const cards = [
   {
   id: 22,
   name: "Gagagaga Magician",
-  image: "../images/gagagaga_magician.webp",
+  image: "images/gagagaga_magician.webp",
   type: "MONSTER",
   subtype: ["XYZ", "EFFECT"],
   monsterType: "SPELLCASTER",
@@ -268,7 +268,7 @@ const cards = [
   {
   id: 23,
   name: "Divine Arsenal AA-Zeus - Sky Thunder",
-  image: "../images/divine_arsenal_aa-zeus-sky_thunder.webp",
+  image: "images/divine_arsenal_aa-zeus-sky_thunder.webp",
   type: "MONSTER",
   subtype: ["XYZ", "EFFECT"],
   monsterType: "MACHINE",
@@ -283,7 +283,7 @@ const cards = [
   {
   id: 24,
   name: "Odd-Eyes Pendulum Dragon",
-  image: "../images/odd-eyes_pendulum_dragon.webp",
+  image: "images/odd-eyes_pendulum_dragon.webp",
   type: "MONSTER",
   subtype: ["PENDULUM", "EFFECT"],
   monsterType: "DRAGON",
@@ -298,7 +298,7 @@ const cards = [
   {
   id: 25,
   name: "Abyss Soldier",
-  image: "../images/abyss_soldier.webp",
+  image: "images/abyss_soldier.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "AQUA",
@@ -311,7 +311,7 @@ const cards = [
   {
   id: 26,
   name: "Bayonater, the Baneful Barrel",
-  image: "../images/bayonater,the_baneful_barrel.webp",
+  image: "images/bayonater,the_baneful_barrel.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "ZOMBIE",
@@ -324,7 +324,7 @@ const cards = [
   {
   id: 27,
   name: "Black Stego",
-  image: "../images/black_stego.webp",
+  image: "images/black_stego.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "DINOSAUR",
@@ -337,7 +337,7 @@ const cards = [
   {
   id: 28,
   name: "Celestial Transformation",
-  image: "../images/celestial_transformation.webp",
+  image: "images/celestial_transformation.webp",
   type: "SPELL",
   spellType: "QUICK-PLAY",
   description: "Special Summon 1 Fairy monster from your hand. That monster’s ATK is halved, also it is destroyed during the End Phase."
@@ -345,7 +345,7 @@ const cards = [
   {
   id: 29,
   name: "Dragon Dowser",
-  image: "../images/dragon_dowser.webp",
+  image: "images/dragon_dowser.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "WYRM",
@@ -358,7 +358,7 @@ const cards = [
   {
   id: 30,
   name: "Emergeroid Call",
-  image: "../images/emergeroid_call.webp",
+  image: "images/emergeroid_call.webp",
   type: "TRAP",
   trapType: "CONTINUOUS",
   description: "When a Spell/Trap Card, or monster effect, is activated while you control a \"roid\" Fusion Monster: Negate the activation, then send all cards with the same name as that card from the activating player's Deck and Extra Deck to the GY. You can banish this card from the GY, then target 1 \"roid\" monster in your GY; add it to your hand. You can only use this effect of \"Emergeroid Call\" once per turn."
@@ -366,7 +366,7 @@ const cards = [
   {
   id: 31,
   name: "Evil HERO Malicious Edge",
-  image: "../images/evil_hero_malicious_edge.webp",
+  image: "images/evil_hero_malicious_edge.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "FIEND",
@@ -379,7 +379,7 @@ const cards = [
   {
   id: 32,
   name: "Future Samurai",
-  image: "../images/future_samurai.webp",
+  image: "images/future_samurai.webp",
   type: "MONSTER",
   subtype: ["EFFECT", "GEMINI"],
   monsterType: "WARRIOR",
@@ -392,7 +392,7 @@ const cards = [
   {
   id: 33,
   name: "Homunculus the Alchemic Being",
-  image: "../images/homunculus_the_alchemic_being.webp",
+  image: "images/homunculus_the_alchemic_being.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "PLANT",
@@ -405,7 +405,7 @@ const cards = [
   {
   id: 34,
   name: "Imairuka",
-  image: "../images/imairuka.webp",
+  image: "images/imairuka.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "SEA SERPENT",
@@ -418,7 +418,7 @@ const cards = [
   {
   id: 35,
   name: "Kinka-byo",
-  image: "../images/kinka-byo.webp",
+  image: "images/kinka-byo.webp",
   type: "MONSTER",
   subtype: ["SPIRIT", "EFFECT"],
   monsterType: "BEAST",
@@ -431,7 +431,7 @@ const cards = [
   {
   id: 36,
   name: "Man-Eater Bug",
-  image: "../images/man-eater_bug.webp",
+  image: "images/man-eater_bug.webp",
   type: "MONSTER",
   subtype: ["FLIP", "EFFECT"],
   monsterType: "INSECT",
@@ -444,7 +444,7 @@ const cards = [
   {
   id: 37,
   name: "Mannadium Prime-Heart",
-  image: "../images/mannadium_prime-heart.webp",
+  image: "images/mannadium_prime-heart.webp",
   type: "MONSTER",
   subtype: ["SYNCHRO", "EFFECT"],
   monsterType: "WARRIOR",
@@ -457,7 +457,7 @@ const cards = [
   {
   id: 38,
   name: "Metabo-Shark",
-  image: "../images/metabo-shark.webp",
+  image: "images/metabo-shark.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "FISH",
@@ -470,7 +470,7 @@ const cards = [
   {
   id: 39,
   name: "Psychic Ace",
-  image: "../images/psychic_ace.webp",
+  image: "images/psychic_ace.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "PSYCHIC",
@@ -483,7 +483,7 @@ const cards = [
   {
   id: 40,
   name: "Shogi Lance",
-  image: "../images/shogi_lance.webp",
+  image: "images/shogi_lance.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "BEAST-WARRIOR",
@@ -496,7 +496,7 @@ const cards = [
   {
   id: 41,
   name: "Sishunder",
-  image: "../images/sishunder.webp",
+  image: "images/sishunder.webp",
   type: "MONSTER",
   subtype: ["EFFECT"],
   monsterType: "THUNDER",
@@ -507,22 +507,22 @@ const cards = [
   description: "When this card is Normal Summoned: You can target 1 Level 4 LIGHT Thunder-Type monster with 1600 or less ATK in your Graveyard, except \"Sishunder\"; banish that target. During the End Phase of this turn, add that card to your hand."
   },
   {
-    id: 42,
-    name: "Skreech",
-    image: "../images/skreech.webp",
-    type: "MONSTER",
-    subtype: ["EFFECT"],
-    monsterType: "REPTILE",
-    level: 4,
-    attribute: "WATER",
-    atk: 1500,
-    def: 400,
-    description: "If this card is destroyed by battle: Send 2 WATER monsters from your Deck to the Graveyard."
+  id: 42,
+  name: "Skreech",
+  image: "images/skreech.webp",
+  type: "MONSTER",
+  subtype: ["EFFECT"],
+  monsterType: "REPTILE",
+  level: 4,
+  attribute: "WATER",
+  atk: 1500,
+  def: 400,
+  description: "If this card is destroyed by battle: Send 2 WATER monsters from your Deck to the Graveyard."
   },
   {
   id: 43,
   name: "Sprite's Blessing",
-  image: "../images/sprite's_blessing.webp",
+  image: "images/sprite's_blessing.webp",
   type: "SPELL",
   spellType: "RITUAL",
   description: "This card can be used to Ritual Summon any LIGHT Ritual Monster. You must also Tribute monsters from your hand or field whose total Levels exactly equal the Level of the Ritual Monster you Ritual Summon."
@@ -530,7 +530,7 @@ const cards = [
   {
   id: 44,
   name: "Supervise",
-  image: "../images/supervise.webp",
+  image: "images/supervise.webp",
   type: "SPELL",
   spellType: "EQUIP",
   description: "Equip only to a Gemini monster. It becomes an Effect Monster, and gains its effect(s). When face-up card on the field is sent to the Graveyard: select and Special Summon 1 Normal Monster from your Graveyard."
@@ -538,7 +538,7 @@ const cards = [
   {
   id: 45,
   name: "Synthetic Seraphim",
-  image: "../images/synthetic_seraphim.webp",
+  image: "images/synthetic_seraphim.webp",
   type: "TRAP",
   trapType: "CONTINUOUS",
   description: "Each time a Counter Trap Card is activated, immediately after it resolves, Special Summon 1 \"Synthetic Seraphim Token\" (Fairy/LIGHT/Level 1/ATK 300/DEF 300)."
@@ -546,7 +546,7 @@ const cards = [
   {
   id: 46,
   name: "The Sanctuary in the Sky",
-  image: "../images/the_sanctuary_in_the_sky.webp",
+  image: "images/the_sanctuary_in_the_sky.webp",
   type: "SPELL",
   spellType: "FIELD",
   description: "Battle damage to the controller of a Fairy monster from a battle involving that monster becomes 0."
@@ -554,7 +554,7 @@ const cards = [
   {
   id: 47,
   name: "W-Wing Catapult",
-  image: "../images/w-wing_catapult.webp",
+  image: "images/w-wing_catapult.webp",
   type: "MONSTER",
   subtype: ["UNION", "EFFECT"],
   monsterType: "MACHINE",
